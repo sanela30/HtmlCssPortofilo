@@ -1,0 +1,196 @@
+body{
+    background-image: linear-gradient(to bottom right, #89a02c, #dde9af);
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    width:50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color:#dde9af;
+}
+.header{
+    height: 300px;
+    background-color:#89a02c;
+    background-image: url(./images/tetris-151430_1280.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin:auto;
+    width: 100%;
+    text-align:center;
+    padding-top:30px;
+    font-family: "Sofia", sans-serif;
+    line-height:0;
+    border-bottom: 1px solid black;
+    font-size: 2rem;
+    display: flex;
+    
+}
+.header-style{
+    background-color: beige;
+    background-position: bottom center;
+    opacity: 0.6;
+    line-height:0.5;
+    align-items: end;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 010;
+    margin-top: 100px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.header p{
+    font-size: 2rem;
+    font: weight 500px;;
+}
+.footer{
+    height: 100px;
+    background-color: #89a02c;
+    text-align: center;
+    padding-top: 25px;
+}
+.footer a{
+ color:#1a9481;
+ padding-left: 10px;
+}
+.footer p{
+    font-size: small;
+}
+#presentation{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#presentation>img{
+margin:20px;
+border-radius: 50%;
+border:1px solid #89a02c;
+
+
+}
+#presentation h2{
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#presentation p{
+ text-align: center;
+ letter-spacing: 2px;
+ line-height: 1.5;
+}
+hr{
+    width:100px;
+    border-top: 1px solid rgb(37, 37, 36);
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#about h2{
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    box-shadow: 8px 5px 20px 2px #89a02c;
+    border: 1px solid #c6d690 ;
+   
+    width:100%;
+}
+.frontend{
+    padding-top: 10px;
+    display:grid;
+    grid-template-rows: 100px,auto;
+    grid-template-columns: 100px 300px;
+
+}
+.frontend img{
+    grid-column-start: 0;
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.frontend h3{
+    grid-row-start: 0;
+    margin: auto;
+    text-align: center;
+    font-size:1.5rem;
+    letter-spacing: 2px;
+
+}
+.frontend p{
+ 
+ padding-top: 10px;
+ grid-column-start: -3;
+ grid-column-end: -1;
+ text-align: justify;
+
+}
+.food{
+    padding-top: 10px;
+    display:grid;
+    grid-template-rows: 100px,auto;
+    grid-template-columns: 100px 300px;
+    
+}
+.food img{
+    grid-column-start: 0;
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.food h3{
+    grid-row-start: 0;
+    text-align: center;
+    clear: right;
+    font-size:1.5rem;
+    letter-spacing: 2px;
+  
+   
+}
+.food p{
+    grid-column-start: -3;
+    grid-column-end: -1;
+    text-align: justify;
+  
+}
+#contact{
+    margin:auto;
+    align-items: center;
+    text-align:center;
+    padding-bottom: 20px;
+    line-height:0.5;
+
+
+}
+#contact h2{
+    font-size:2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color:#89a02c;
+}
+ button {
+    background-color: #c6d690;
+    border:1px solid #89a02c;
+    border-radius: 15px; 
+    width:20rem;
+    height:50px;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    font-size: large;
+    
+  }
+  
+ button:hover {
+    background-color: #ffcc00;
+    color: white;
+  }
